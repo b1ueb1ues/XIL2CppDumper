@@ -11,6 +11,12 @@
  */
 #define X_DEBUG 0
 
+/*  is open dlog ?
+ *  1   open
+ *  0   close
+ */
+#define DLOG 0
+
 /*
  *  1: [strict] assert() check
  *  2: [normal] if else check, if failed, return null or ""
@@ -18,13 +24,16 @@
  */
 #define DEBUG_MODE  2
 
+#define OUTFILE "dump.cs"
+#define SCRIPTFILE "script.py"
+
 // v24.0
-#define IL2CPP_TEST_METADATA_v24_0  "../il2cppTests/24.0/speedmobile/global-metadata.dat"
-#define IL2CPP_TEST_BIN_v24_0       "../il2cppTests/24.0/speedmobile/speedmobile.decrypted"
+#define IL2CPP_TEST_METADATA_v24_0  ""
+#define IL2CPP_TEST_BIN_v24_0       ""
 
 // v24.1
-#define IL2CPP_TEST_METADATA_v24_1  "../il2cppTests/android/24.1/Hero/global-metadata.dat"
-#define IL2CPP_TEST_BIN_v24_1       "../il2cppTests/android/24.1/Hero/libil2cpp.so"
+#define IL2CPP_TEST_METADATA_v24_1  "global-metadata.dat"
+#define IL2CPP_TEST_BIN_v24_1       "libil2cpp.so"
 
 //====================current test version====================hero-demo
 #define IL2CPP_TEST_METADATA        IL2CPP_TEST_METADATA_v24_1
